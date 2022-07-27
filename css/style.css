@@ -1,0 +1,18 @@
+/* carousel image size  */
+.img-size {
+    height: 700px !important;
+}
+
+.img-size-small {
+    height: 300px !important;
+}
+
+/* get started button color  */
+.get-started {
+    background-color: #289BDE;
+}
+
+.get-started:hover {
+    background-color: rgb(56, 56, 104);
+    border-color: rgb(56, 56, 104);
+}
