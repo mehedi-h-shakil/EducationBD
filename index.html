@@ -106,7 +106,7 @@
                     looking at its layout.</p>
             </div>
             <div class="row gx-3 gy-4">
-                <div class="col-md-6 d-flex border p-0 rounded">
+                <div class="col-md-6 course-card d-flex border p-0 rounded">
                     <img src="images/course/course-1.png" alt="">
                     <div class="m-3">
                         <h2>Javascript Basic to advanced</h2>
@@ -162,9 +162,63 @@
             <div class="d-flex justify-content-center align-items-center mt-5">
                 <button class="btn btn-primary px-5 py-2">See More Courses</button>
             </div>
-
         </section>
         <!-- courses end  -->
+
+        <!-- register now start  -->
+        <section class="container mt-5">
+            <div class="row bg-primary rounded" style="height: 250px;">
+                <div class="col-md-8 text-white d-flex justify-content-center align-items-center">
+                    <div>
+                        <h2>Ready to join?</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page
+                            when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary"><a
+                                            class="text-white text-decoration-none" data-bs-dismiss="modal"
+                                            href="#">Sign
+                                            Up</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- register now end  -->
     </main>
     <!-- javascript link  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
