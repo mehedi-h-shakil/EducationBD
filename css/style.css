@@ -16,11 +16,15 @@
 }
 
 /* courses  */
-.img-size {}
 
-/* text size  */
-@include media-breakpoint-up(sm) {
-    .text-size {
-        height: 25% !important;
-    }
+
+
+/* star color  */
+.star-color {
+    color: #F59E0B;
+}
+
+/* quotation color  */
+.quotation-color {
+    color: #D2D2D2;
 }
