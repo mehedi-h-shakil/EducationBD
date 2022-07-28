@@ -3,13 +3,7 @@
     filter: brightness(50%);
 }
 
-.img-size {
-    height: 700px !important;
-}
 
-.img-size-small {
-    height: 300px !important;
-}
 
 /* get started button color  */
 .get-started {
@@ -22,12 +16,11 @@
 }
 
 /* courses  */
-@media screen and (max-width:"576px") {
-    .course-card {
-        display: flex !important;
-        flex-direction: column !important;
+.img-size {}
+
+/* text size  */
+@include media-breakpoint-up(sm) {
+    .text-size {
+        height: 25% !important;
     }
-
 }
-
-/* companies  */
