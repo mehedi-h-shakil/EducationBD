@@ -33,3 +33,10 @@
 .bg-color {
     background-color: #289BDE;
 }
+
+/* banner text size for large device */
+@media (min-width: 992px) {
+    .custom-height {
+        height: 50%;
+    }
+}
