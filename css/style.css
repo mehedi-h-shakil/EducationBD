@@ -6,11 +6,11 @@
 
 
 /* get started button color  */
-.get-started {
+.button-color {
     background-color: #289BDE;
 }
 
-.get-started:hover {
+.button-color:hover {
     background-color: rgb(56, 56, 104);
     border-color: rgb(56, 56, 104);
 }
@@ -27,4 +27,9 @@
 /* quotation color  */
 .quotation-color {
     color: #D2D2D2;
+}
+
+/* regiser now section  */
+.bg-color {
+    background-color: #289BDE;
 }
