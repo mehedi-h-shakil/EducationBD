@@ -15,10 +15,6 @@
     border-color: rgb(56, 56, 104);
 }
 
-/* courses  */
-
-
-
 /* star color  */
 .star-color {
     color: #F59E0B;
@@ -38,5 +34,12 @@
 @media (min-width: 992px) {
     .custom-height {
         height: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .title-hide {
+        display: none;
+
     }
 }
