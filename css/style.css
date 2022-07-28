@@ -1,4 +1,8 @@
 /* carousel image size  */
+.carousel-bg {
+    filter: brightness(50%);
+}
+
 .img-size {
     height: 700px !important;
 }
